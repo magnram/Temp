@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Main from "./Components/Main/Main";
-import Selection from "./Components/Selection/Selection";
+import Main from "./components/Main/Main";
+import Selection from "./components/Selection/Selection";
 
 class App extends Component {
     state = {
