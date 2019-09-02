@@ -1,8 +1,11 @@
 import React from 'react';
-
+import Content from "./Content/Content";
 function Main(props) {
     return (
-        <h1 onClick={() => {props.fun("lalala")}}> { props.ex } </h1>
+        <div>
+            <Content></Content>
+        </div>
+
     );
 }
 

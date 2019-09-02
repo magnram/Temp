@@ -1,10 +1,18 @@
 import React from 'react';
-import { Classes } from "Content.module.css"
+import classes from "Content.module.css"
 
 function Content() {
     return (
-        <div class>
-
+        <div className={classes.Content}>
+            <div>
+                Image
+            </div>
+            <div>
+                Text
+            </div>
+            <div>
+                Audio
+            </div>
         </div>
     );
 }
